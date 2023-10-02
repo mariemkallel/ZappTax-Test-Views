@@ -2,4 +2,8 @@
     <string name="app_name">ZappTaxTest</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_nav_item_name">Accueil</string>
+    <string name="trips_nav_item_name">Voyages</string>
+    <string name="notifications_nav_item_name">Notifications</string>
+    <string name="settings_nav_item_name">Plus d\'infos</string>
 </resources>
