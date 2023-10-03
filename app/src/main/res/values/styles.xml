@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Base.AppTheme" />
+    <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorSecondaryContainer">@color/yellow_selected_item_navbar_background</item>
+        <item name="colorOnSecondaryContainer">@color/gray_icon_color</item>
+    </style>
+</resources>
