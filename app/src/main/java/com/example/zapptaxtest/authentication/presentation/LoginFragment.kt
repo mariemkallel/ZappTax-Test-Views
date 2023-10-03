@@ -31,7 +31,7 @@ class LoginFragment : Fragment() {
         binding.btnNavigateToMainActivity.setOnClickListener {
             val intent = Intent(activity, MainActivity::class.java)
             startActivity(intent)
-            activity?.finish()
+//            activity?.finish()
         }
     }
 }

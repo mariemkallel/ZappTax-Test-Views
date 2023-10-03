@@ -3,7 +3,8 @@
     <style name="Base.Theme.ZappTaxTest" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
          <item name="colorPrimary">@color/primary_yellow</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-
+        <item name="android:statusBarColor">@color/yellow_title_background</item>
+        <item name="colorPrimaryDark">@color/yellow_title_background</item>
+        <item name="colorAccent">@color/yellow_title_background</item>
     </style>
 </resources>

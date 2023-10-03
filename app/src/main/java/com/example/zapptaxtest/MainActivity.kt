@@ -1,11 +1,14 @@
 package com.example.zapptaxtest
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.WindowManager
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.zapptaxtest.databinding.ActivityMainBinding
+import com.example.zapptaxtest.utils.StatusBarUtil
 
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setupNavigation()
+        StatusBarUtil.setStatusBarColor(this, R.color.yellow_title_background)
+
     }
 
     private fun setupNavigation() {
