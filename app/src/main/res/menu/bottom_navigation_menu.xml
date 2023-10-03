@@ -5,7 +5,7 @@
         android:title="@string/home_nav_item_name"
         android:iconTint="@color/gray_asparagus"
         />
-    <item android:id="@+id/tripsFragment"
+    <item android:id="@+id/tripListFragment"
         android:title="@string/trips_nav_item_name"
         android:icon="@drawable/ic_trips"
         android:iconTint="@color/gray_asparagus"
