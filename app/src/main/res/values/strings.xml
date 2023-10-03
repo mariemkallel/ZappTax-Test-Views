@@ -11,4 +11,12 @@
     </string>
     <string name="forgot_password">Mot de passe oublié ?</string>
     <string name="submit_login">S\'identifier</string>
+    <string name="current_trips_title">Voyages en cours</string>
+    <string name="previous_trips_title">Voyages passés</string>
+
+
+
+    <string name="departure_from_country">Départ depuis %1$s</string>
+    <string name="refund_value">%.2f€</string>
+    <string name="total_spent">%.2f€</string>
 </resources>

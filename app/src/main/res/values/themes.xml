@@ -5,6 +5,5 @@
         <item name="android:statusBarColor">@color/yellow_title_background</item>
         <item name="colorPrimaryDark">@color/yellow_title_background</item>
     </style>
-
     <style name="Theme.ZappTaxTest" parent="Base.Theme.ZappTaxTest" />
 </resources>
