@@ -5,4 +5,8 @@
     <string name="trips_nav_item_name">Voyages</string>
     <string name="notifications_nav_item_name">Notifications</string>
     <string name="settings_nav_item_name">Plus d\'infos</string>
+    <string name="welcome_zapptax_title">Bienvenue chez ZappTax</string>
+    <string name="take_receipt_photos_for_tva_refund">Prenez des photos de vos factures d\'achat et obtenez vos remboursements de TVA en un rien de temps.</string>
+    <string name="easy_fast_tva_refund_method">La  méthode la plus facie et la plus rapide pour vous faire rembourser la TVA sur vos achats en  France,Belgique ou en Espagne.
+    </string>
 </resources>
