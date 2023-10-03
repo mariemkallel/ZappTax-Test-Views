@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setupNavigation()
         StatusBarUtil.setStatusBarColor(this, R.color.yellow_title_background)
-
     }
 
     private fun setupNavigation() {

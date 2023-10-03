@@ -12,6 +12,7 @@ class NotificationsFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        activity?.title = "Notifications"
 
     }
 
