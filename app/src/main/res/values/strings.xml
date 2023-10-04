@@ -1,9 +1,27 @@
 <resources>
-    <string name="app_name">ZappTaxTest</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">ZappTax</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home_nav_item_name">Accueil</string>
     <string name="trips_nav_item_name">Voyages</string>
     <string name="notifications_nav_item_name">Notifications</string>
     <string name="settings_nav_item_name">Plus d\'infos</string>
+    <string name="welcome_zapptax_title">Bienvenue chez ZappTax</string>
+    <string name="take_receipt_photos_for_tva_refund">Prenez des photos de vos factures d\'achat et obtenez vos remboursements de TVA en un rien de temps.</string>
+    <string name="easy_fast_tva_refund_method">La  méthode la plus facie et la plus rapide pour vous faire rembourser la TVA sur vos achats en  France,Belgique ou en Espagne.
+    </string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="submit_login">S\'identifier</string>
+    <string name="current_trips_title">Voyages en cours</string>
+    <string name="previous_trips_title">Voyages passés</string>
+
+
+
+    <string name="departure_from_country">Départ depuis %1$s</string>
+    <string name="refund_value">%.2f €</string>
+    <string name="total_spent">%.2f €</string>
+    <string name="create_account_button">Créer un compte</string>
+    <string name="login_button">Se connecter</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="password_hint_input_layout">Mot de passe</string>
+    <string name="email_text">E-mail</string>
 </resources>

@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:theme="@style/Theme.Material3.DayNight.NoActionBar"
+            android:theme="@style/Theme.Material3.DayNight"
             android:name=".MainActivity"
             android:exported="false">
 

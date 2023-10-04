@@ -9,5 +9,9 @@
     <color name="yellow_selected_item_navbar_background">#FFFFEED1</color>
     <color name="yellow_navbar_background">#FFFFF6E8</color>
     <color name="yellow_title_background">#FFFFF6E8</color>
+    <color name="light_silver">#FFEDEDED</color>
+    <color name="error_red">#FFF24822</color>
+    <color name="background_green">#FFF0F7ED</color>
+    <color name="text_green">#FF8CCA80</color>
 
 </resources>

@@ -5,5 +5,17 @@
         <item name="colorPrimary">@color/primary_yellow</item>
         <item name="colorSecondaryContainer">@color/yellow_selected_item_navbar_background</item>
         <item name="colorOnSecondaryContainer">@color/gray_icon_color</item>
+        <item name="colorControlActivated">@color/silver_chalice</item>
+
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.TextInputEditText.Outlined" parent="">
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorControlActivated">@color/silver_chalice</item>
+
+    </style>
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/error_red</item>
+        <item name="android:textSize">12sp</item>
     </style>
 </resources>
