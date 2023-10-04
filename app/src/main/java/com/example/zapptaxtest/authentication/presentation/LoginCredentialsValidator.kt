@@ -14,17 +14,17 @@ class LoginCredentialsValidator {
         hideError(emailErrorText)
         hideError(passwordErrorText)
         if (email.isEmpty()) {
-            showError(emailErrorText, "Email cannot be empty")
+            showError(emailErrorText, "L'adresse e-mail ne peut pas être vide")
             isValid = false
         }
         if (password.isEmpty()) {
-            showError(passwordErrorText, "Password cannot be empty")
+            showError(passwordErrorText, "Le mot de passe ne peut pas être vide")
             isValid = false
         }
         if (email != "android@zapptax.com" || password != "ZappTax") {
             if (email.isNotEmpty() && password.isNotEmpty()) {
-                showError(emailErrorText, "Invalid email")
-                showError(passwordErrorText, "Invalid password")
+                showError(emailErrorText, "E-mail invalide")
+                showError(passwordErrorText, "Mot de passe invalide")
             }
             isValid = false
         }

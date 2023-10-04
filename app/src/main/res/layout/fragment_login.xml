@@ -95,7 +95,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="52dp"
         android:backgroundTint="@android:color/transparent"
-        android:text="Créer un compte"
+        android:text="@string/create_account"
         android:textColor="@color/silver_chalice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

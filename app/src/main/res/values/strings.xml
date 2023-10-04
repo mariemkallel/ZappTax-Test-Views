@@ -21,4 +21,7 @@
     <string name="total_spent">%.2f €</string>
     <string name="create_account_button">Créer un compte</string>
     <string name="login_button">Se connecter</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="password_hint_input_layout">Mot de passe</string>
+    <string name="email_text">E-mail</string>
 </resources>

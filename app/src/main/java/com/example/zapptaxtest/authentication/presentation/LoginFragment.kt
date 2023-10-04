@@ -41,10 +41,9 @@ class LoginFragment : Fragment() {
             val emailErrorText=binding.emailErrorTextView
             val passwordErrorText=binding.passwordErrorTextView
 
-//            if (credentialsValidator.validateCredentials(emailErrorText, passwordErrorText, email, password)) {
-//                navigateToMainActivity()
-//            }
-            navigateToMainActivity()
+            if (credentialsValidator.validateCredentials(emailErrorText, passwordErrorText, email, password)) {
+                navigateToMainActivity()
+            }
         }
     }
     private fun navigateToMainActivity() {

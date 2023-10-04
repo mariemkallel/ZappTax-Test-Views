@@ -19,6 +19,7 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        requireActivity().title = "Accueil"
         return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
