@@ -9,7 +9,7 @@ import com.example.zapptaxtest.databinding.ItemPreviousTripBinding
 import com.example.zapptaxtest.trips.presentation.model.PreviousTripModel
 
 
-class PreviousTripAdapter(private val context: Context, private val items: List<PreviousTripModel>) :
+class PreviousTripAdapter(private val context: Context, private var items: List<PreviousTripModel>) :
     RecyclerView.Adapter<PreviousTripAdapter.ViewHolder>() {
 
     inner class ViewHolder(private val binding: ItemPreviousTripBinding) :
@@ -19,7 +19,6 @@ class PreviousTripAdapter(private val context: Context, private val items: List<
             val departureText = context.getString(R.string.departure_from_country, item.country)
             val refundText = context.getString(R.string.refund_value, item.refundValue)
             val totalSpentText = context.getString(R.string.total_spent, item.totalSpent)
-
             binding.countryNameTextView.text = departureText
             binding.refundValueTextView.text = refundText
             binding.totalSpentTextView.text = totalSpentText

@@ -8,7 +8,7 @@ import com.example.zapptaxtest.R
 import com.example.zapptaxtest.databinding.ItemCurrentTripBinding
 import com.example.zapptaxtest.trips.presentation.model.CurrentTripModel
 
-class CurrentTripAdapter(private val context: Context, private val items: List<CurrentTripModel>) :
+class CurrentTripAdapter(private val context: Context, private var items: List<CurrentTripModel>) :
     RecyclerView.Adapter<CurrentTripAdapter.ViewHolder>() {
     private val countryFlagMap = mapOf(
         "Belgique" to R.drawable.ic_flag_belgium,
@@ -22,7 +22,7 @@ class CurrentTripAdapter(private val context: Context, private val items: List<C
         fun bind(item: CurrentTripModel) {
             val departureText = context.getString(R.string.departure_from_country, item.country)
             val refundText = context.getString(R.string.refund_value, item.refundValue)
-            val totalSpentText = context.getString(R.string.total_spent, item.totalSpent)
+            val totalSpentText = context.getString(R.string.total_spent,item.totalSpent )
             val flagResourceId = countryFlagMap[item.country]
             flagResourceId?.let {
                 binding.countryFlagImageView.setImageResource(it)
@@ -47,5 +47,9 @@ class CurrentTripAdapter(private val context: Context, private val items: List<C
 
     override fun getItemCount(): Int {
         return items.size
+    }
+    fun updateData(newTrips: List<CurrentTripModel>) {
+        items = newTrips
+        notifyDataSetChanged()
     }
 }

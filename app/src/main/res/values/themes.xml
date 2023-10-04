@@ -5,5 +5,8 @@
         <item name="android:statusBarColor">@color/yellow_title_background</item>
         <item name="colorPrimaryDark">@color/yellow_title_background</item>
     </style>
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/primary_yellow</item>
+    </style>
     <style name="Theme.ZappTaxTest" parent="Base.Theme.ZappTaxTest" />
 </resources>

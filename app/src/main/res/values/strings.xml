@@ -17,6 +17,8 @@
 
 
     <string name="departure_from_country">Départ depuis %1$s</string>
-    <string name="refund_value">%.2f€</string>
-    <string name="total_spent">%.2f€</string>
+    <string name="refund_value">%.2f €</string>
+    <string name="total_spent">%.2f €</string>
+    <string name="create_account_button">Créer un compte</string>
+    <string name="login_button">Se connecter</string>
 </resources>
